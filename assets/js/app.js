@@ -1,7 +1,6 @@
 /*global google, document, populateInfoWindow, largeInfoWindow*/
-var map;
-// Create a new blank array for all the listing markers.
-var markers = [];
+var map,
+    markers = [];
 
 function initMap() {
     // Constructor creates a new map - only center and zoom are required.
